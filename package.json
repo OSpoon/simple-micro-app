@@ -7,15 +7,18 @@
     "list": "lerna ls -la",
     "clear": "lerna exec -- rm -rf ./node_modules",
     "install": "lerna exec -- npm install",
-    "dev": "lerna run dev --parallel"
+    "dev": "lerna run dev --parallel",
+    "version": "lerna version"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@lerna-lite/changed": "^3.3.3",
     "@lerna-lite/cli": "^3.3.3",
     "@lerna-lite/exec": "^3.3.3",
     "@lerna-lite/list": "^3.3.3",
-    "@lerna-lite/run": "^3.3.3"
+    "@lerna-lite/run": "^3.3.3",
+    "@lerna-lite/version": "^3.3.3"
   }
 }
