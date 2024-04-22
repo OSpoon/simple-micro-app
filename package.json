@@ -9,7 +9,7 @@
     "install": "lerna exec -- npm install",
     "dev": "lerna run dev --parallel",
     "version": "lerna version",
-    "changed": "lerna changed",
+    "changed": "lerna changed --all",
     "diff": "lerna diff"
   },
   "keywords": [],
