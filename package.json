@@ -1,0 +1,21 @@
+{
+  "name": "simple-micro-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "list": "lerna ls -la",
+    "clear": "lerna exec -- rm -rf ./node_modules",
+    "install": "lerna exec -- npm install",
+    "dev": "lerna run dev --parallel"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lerna-lite/cli": "^3.3.3",
+    "@lerna-lite/exec": "^3.3.3",
+    "@lerna-lite/list": "^3.3.3",
+    "@lerna-lite/run": "^3.3.3"
+  }
+}
