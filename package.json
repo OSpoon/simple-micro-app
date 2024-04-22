@@ -8,7 +8,8 @@
     "clear": "lerna exec -- rm -rf ./node_modules",
     "install": "lerna exec -- npm install",
     "dev": "lerna run dev --parallel",
-    "version": "lerna version"
+    "version": "lerna version",
+    "changed": "lerna changed"
   },
   "keywords": [],
   "author": "",

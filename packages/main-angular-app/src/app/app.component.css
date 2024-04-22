@@ -1,0 +1,31 @@
+/* 左右布局（aside + article） */
+main {
+  display: flex;
+}
+
+aside {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 100vh;
+  box-shadow: 3px 0 9px 2px #e6e6e6;
+}
+
+aside a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2e3e50;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+aside .active {
+  color: #f16b5f;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+article {
+  padding: 26px;
+  width: 100%;
+}
