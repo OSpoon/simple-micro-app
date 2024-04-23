@@ -332,4 +332,4 @@ diff --git a/packages/main-angular-app/src/app/app.component.html b/packages/mai
 - **micro-app** 在不同的技术栈和不同的基础框架会有不一样的要求，更多内容可以访问 [https://github.com/micro-zoe/micro-app](https://github.com/micro-zoe/micro-app) 查看学习。
 - **lerna-lite** 的 `publish` 和 `watch` 两个命名以及其他命令的更多选项可以到 [https://github.com/lerna-lite/lerna-lite](https://github.com/lerna-lite/lerna-lite) 查看学习。
 
-PS：源码访问 [https://github.com/OSpoon/simple-micro-app](https://github.com/OSpoon/simple-micro-app) 获取；
+PS：源码访问 [simple-micro-app](https://github.com/OSpoon/simple-micro-app) 获取；
