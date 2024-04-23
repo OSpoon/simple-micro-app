@@ -44,7 +44,8 @@ lerna-repo
 **PS**： 由于 `publish` 命令依赖于 `version` 命令，所以在安装 `@lerna-lite/publish`后即可获得这两个命令。
 
 ## 一起操练起来：
-![image.png](https://cdn.nlark.com/yuque/0/2024/png/2373519/1713755614655-932411a4-64b5-4304-b29c-1990185a0798.png#averageHue=%23f3f0ee&clientId=ub6e18ef4-7460-4&from=paste&height=800&id=u715ef797&originHeight=800&originWidth=2096&originalType=binary&ratio=1&rotation=0&showTitle=false&size=167601&status=done&style=none&taskId=u386758c0-4afe-4dfb-be71-d53c982ee30&title=&width=2096)
+![image (1)](https://github.com/OSpoon/simple-micro-app/assets/10126623/6270f045-f752-455c-8dd8-ed1ca7d563e2)
+
 首先会创建三个独立的前端应用，接着会使用 `micro-app` 将 **Angualr16** 的项目改造为微前端的主应用，**Vue3** + **Vite** 和 **React** + **Vite** 两个项目当做子应用接入，最后在升级为 **Monorepo** 。
 **lerna-lite** 将会以渐进式的方式在整个过程中逐步引入。
 
@@ -83,7 +84,7 @@ app
 ├─ app.component.html               左右布局（aside + article）
 └─ app.module.ts           					添加新页面的组件声明        
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2024/png/2373519/1713769539079-e56e53c7-b2be-4c9e-8d25-0a30547feefa.png#averageHue=%23fefdfd&clientId=ud94a4903-3a4a-4&from=paste&height=666&id=u102890b3&originHeight=1332&originWidth=1974&originalType=binary&ratio=2&rotation=0&showTitle=false&size=56632&status=done&style=none&taskId=ufc6cd249-1a05-41de-8721-7853347894a&title=&width=987)
+<img width="987" alt="image" src="https://github.com/OSpoon/simple-micro-app/assets/10126623/42180591-612b-4d1b-830a-b6df93e85652">
 PS：文末通过访问 Github 查看项目中的变更文件，已用注释说明；
 
 #### Vue3 应用：
@@ -157,7 +158,8 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 <micro-app name="sub-react" url="http://localhost:10012" iframe></micro-app>
 ```
 PS：子应用使用 `vite` 作为基础框架，需要主动切换到 `iframe` 沙箱；
-![2024-04-22 15.41.58.gif](https://cdn.nlark.com/yuque/0/2024/gif/2373519/1713771945983-96e6c774-4276-4946-bd2c-8a5a19ef7444.gif#averageHue=%2366c194&clientId=ud94a4903-3a4a-4&from=paste&height=820&id=u0ad1c5dc&originHeight=1640&originWidth=2880&originalType=binary&ratio=2&rotation=0&showTitle=false&size=621469&status=done&style=none&taskId=u57ae7146-f632-4353-91aa-29b061f26f4&title=&width=1440)
+![2024-04-22 15 41 58](https://github.com/OSpoon/simple-micro-app/assets/10126623/09dcae4a-e702-4c44-bcf7-9fced81d38dd)
+
 
 ### **lerna-lite（Monorepo风格）：**
 按快速开始的的流程创建 `simple-micro-app` 项目且默认使用 `npm` 包管理器，执行 `init` 命令后将独立的三个前端应用移动到对应的目录。
